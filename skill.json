@@ -1,0 +1,24 @@
+{
+  "name": "genpark-seo-backlink-opportunity-analyzer-skill",
+  "version": "1.0.0",
+  "description": "GenPark AI Agent Skill - SEO competitor backlink and domain authority analyzer.",
+  "author": "genpark",
+  "category": "marketing",
+  "tags": [
+    "marketing",
+    "genpark-skill",
+    "ai-agent"
+  ],
+  "inputs": {
+    "domain": {
+      "type": "str"
+    }
+  },
+  "outputs": {
+    "opportunity_score": {
+      "type": "float"
+    }
+  },
+  "entrypoint": "client.py",
+  "example": "example_usage.py"
+}
